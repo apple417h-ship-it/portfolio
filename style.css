@@ -1,5 +1,5 @@
 h1 {
-  color: #0092be;
+  color: #11676a;
 }
 
 body {
@@ -8,4 +8,69 @@ body {
 
 img {
   margin: 20px;
+}
+
+body {
+  background: #f9f5e1;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+section {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #ff914d;
+}
+
+body {
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+/*　メインカラー:#ff914d(オレンジ) */
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #ff914f;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+img {
+  display: block;
+  margin:20px auto;
 }
