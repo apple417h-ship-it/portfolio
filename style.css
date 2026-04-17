@@ -6,10 +6,6 @@ body {
   text-align: center;
 }
 
-img {
-  margin: 20px;
-}
-
 body {
   background: #f9f5e1;
 }
@@ -18,14 +14,6 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 16px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  border-radius: 8px;
 }
 
 section {
@@ -42,6 +30,7 @@ h2 {
 
 body {
   font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+  color: #333333;
 }
 
 /*　メインカラー:#ff914d(オレンジ) */
@@ -74,6 +63,15 @@ body {
 }
 
 section img {
+  width: 100%; 
+  max-width: 700%;
+  height: auto;
   display: block;
   margin:20px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+body {
+
 }
